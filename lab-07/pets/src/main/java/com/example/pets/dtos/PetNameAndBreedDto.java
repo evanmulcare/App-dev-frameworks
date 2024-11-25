@@ -12,7 +12,6 @@ public class PetNameAndBreedDto {
         this.breed = breed;
     }
 
-    // Getters and setters
     public String getName() {
         return name;
     }

@@ -19,7 +19,6 @@ public class PetServiceImpl implements PetService  {
         this.petRepo = petRepo;
     }
 
-
     @Override
     public Pet createPet(Pet pet) {
         if (pet.getName() == null || pet.getAnimalType() == null || pet.getBreed() == null) {

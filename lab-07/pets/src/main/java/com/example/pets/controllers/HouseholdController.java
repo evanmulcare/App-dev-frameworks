@@ -3,6 +3,7 @@ package com.example.pets.controllers;
 import com.example.pets.dtos.HouseDTO;
 import com.example.pets.entities.Household;
 import com.example.pets.services.HouseholdService;
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
