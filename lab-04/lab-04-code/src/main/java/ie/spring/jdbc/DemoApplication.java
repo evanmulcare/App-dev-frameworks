@@ -14,6 +14,5 @@ public class DemoApplication {
         CartoonRepo cartoonRepo = applicationContext.getBean(CartoonRepo.class);
         List<Cartoon> cartoons = cartoonRepo.findAll();
         cartoons.forEach(cartoon -> System.out.println(cartoon.getName()));
-
     }
 }
